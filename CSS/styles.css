@@ -1,50 +1,9 @@
-body{
-    font-family: Roboto, sans-serif;
-    background-color: gray;
+body {
+        font-family: Roboto, sans-serif;
 }
-/* ----------HEADER--------- */
-.logo {
-    font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-}
-.web {
-    color: #4D5AE5;
-}
-.studio {
-    color: #2E2F42;
-}
-.nav {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #2E2F42;
-}
-.adress {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-}
-/* --------------HIRO----------- */
-.main_top {
-        font-weight: 600;
-        font-size: 56px;
-        line-height: 1.07;
-        color: #FFFFFF;
-}
-.btn {
-        background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        
-}
-.btn_text {
-        font-size: 16px;
-        line-height: 1.2;
-        color: #FFFFFF;
-        font-family: inherit;
+/* ---------other--------- */
+.list{
+        list-style: none;
 }
 h2 {
         font-weight: 600;
@@ -52,15 +11,119 @@ h2 {
         line-height: 1.11;
         color: #2E2F42;
 }
+
 h3 {
-    font-weight: 600;
+        font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         color: #2E2F42;
 }
+
 p {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+}
+
+/* ----------HEADER--------- */
+.head-color {
+        background: #FFFFFF;
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+}
+
+.web {
+        color: #4D5AE5;
+}
+
+.studio {
+        color: #2E2F42;
+}
+
+.link{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.link-color {
+        color: #2E2F42;
+}
+.link :hover {
+        color: #434455;
+}
+.link :focus {
+        color: #434455;
+}
+.link :clik {
+        color: #4D5AE5;
+}
+
+
+.adress-style {
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.adres-color {
+        color: #434455;
+}
+
+/* --------------HIRO----------- */
+.bkgr_color {
+        background: #2E2F42;
+}
+
+.main_top {
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
+        color: #FFFFFF;
+}
+
+.btn {
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+}
+
+.btn_text {
+        font-size: 16px;
+        line-height: 1.2;
+        color: #FFFFFF;
+        font-family: inherit;
+}
+
+/* < !-- -----------What are we doing---------- --> */
+
+/* ------------OUR TEAM---------- */
+.bkgr-color-team {
+        background: #F4F4FD;
+}
+
+/* --------FOOTER-------- */
+.studio-footer-color {
+        color: #F4F4FD;
+}
+
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #E7E9FC;
+}
+/* -----------PORTFOLIO---------- */
+.text-btn {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #4D5AE5;
+        background: #F4F4FD;
 }
