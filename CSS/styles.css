@@ -1,29 +1,31 @@
-body {
+.body {
         font-family: Roboto, sans-serif;
 }
 /* ---------other--------- */
 .list{
         list-style: none;
 }
-h2 {
+.h2 {
         font-weight: 600;
         font-size: 36px;
         line-height: 1.11;
         color: #2E2F42;
+        letter-spacing: 0.02em;
 }
 
-h3 {
+.h3 {
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         color: #2E2F42;
+        letter-spacing: 0.02em;
 }
 
-p {
-        font-weight: 400;
+.p {
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        letter-spacing: 0.02em;
 }
 
 /* ----------HEADER--------- */
@@ -36,23 +38,31 @@ p {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
+        text-decoration:none;
+        letter-spacing: 0.03em;
 }
 
 .web {
         color: #4D5AE5;
+        text-transform: uppercase;
 }
 
 .studio {
         color: #2E2F42;
+}
+.nav-list{
+        text-decoration: none
 }
 
 .link{
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .link-color {
         color: #2E2F42;
+        text-decoration: none;
 }
 .link :hover {
         color: #434455;
@@ -72,11 +82,11 @@ p {
         color: #4D5AE5;
 }
 .adress-link{
-        
-        font-weight: 400;
+        text-decoration: none;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        letter-spacing: 0.02em;
 }
 
 /* --------------HERO----------- */
@@ -89,24 +99,29 @@ p {
         font-size: 56px;
         line-height: 1.07;
         color: #FFFFFF;
+        letter-spacing: 0.02em;
 }
 /* ---------BUTTON----------- */
 .btn {  
+        cursor: pointer;
+        background: #4D5AE5;
+        padding: 16px 32px;
+}
+.btn:hover{
         background: #4D5AE5;
 }
-.btn :hover{
-        background: #4D5AE5;
-}
-.button :active{
+.btn:active{
         background-color:  #404BBF;
 }
 
 .btn_text {
-        font-family: 'Roboto';
         list-style: none;
+        font-family: 'Roboto';
+        font-weight: 600;
         font-size: 16px;
         line-height: 1.2;
         color: #FFFFFF;
+        letter-spacing: 0.04em;
 }
 
 /* < !-- -----------What are we doing---------- --> */
@@ -122,24 +137,23 @@ p {
 }
 
 .footer-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: #E7E9FC;
 }
 /* -----------PORTFOLIO---------- */
+
 .text-btn {
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
         color: #4D5AE5;
         background: #F4F4FD;
+        padding: 4px 8px;
+        cursor: pointer;
+        letter-spacing: 0.04em;
 }
-
-.gallery :active {  
-        color: #E7E9FC
-}
-
-.buttons :active{
-      background: #4D5AE5;
+.text-btn:active{
+        background: #4D5AE5;
+        color: #E7E9FC;
 }
